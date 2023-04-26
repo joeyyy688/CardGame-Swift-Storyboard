@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043D13D329F8503000B312A7 /* CardRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D13D229F8503000B312A7 /* CardRulesViewController.swift */; };
 		04A9A35829F6097100690458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A35729F6097100690458 /* AppDelegate.swift */; };
 		04A9A35A29F6097100690458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A35929F6097100690458 /* SceneDelegate.swift */; };
 		04A9A35C29F6097100690458 /* CardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A35B29F6097100690458 /* CardSelectionViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043D13D229F8503000B312A7 /* CardRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRulesViewController.swift; sourceTree = "<group>"; };
 		04A9A35429F6097100690458 /* CardWorkOutGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkOutGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9A35729F6097100690458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A9A35929F6097100690458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				04A9A35729F6097100690458 /* AppDelegate.swift */,
 				04A9A35929F6097100690458 /* SceneDelegate.swift */,
 				04A9A35B29F6097100690458 /* CardSelectionViewController.swift */,
+				043D13D229F8503000B312A7 /* CardRulesViewController.swift */,
 				04A9A35D29F6097100690458 /* Main.storyboard */,
 				04A9A36029F6097300690458 /* Assets.xcassets */,
 				04A9A36229F6097300690458 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043D13D329F8503000B312A7 /* CardRulesViewController.swift in Sources */,
 				04A9A35C29F6097100690458 /* CardSelectionViewController.swift in Sources */,
 				04A9A35829F6097100690458 /* AppDelegate.swift in Sources */,
 				04A9A35A29F6097100690458 /* SceneDelegate.swift in Sources */,

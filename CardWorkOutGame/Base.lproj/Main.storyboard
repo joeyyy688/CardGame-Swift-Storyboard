@@ -72,6 +72,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="rulesButtonOnTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3aD-ot-zEo"/>
+                                    <segue destination="znb-lo-YXh" kind="presentation" id="1tP-k8-AUV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -90,11 +91,59 @@
                     </view>
                     <connections>
                         <outlet property="cardImageView" destination="z9h-ct-1J1" id="oFf-zc-gAu"/>
+                        <outletCollection property="buttons" destination="khM-Y5-Ly9" collectionClass="NSMutableArray" id="g51-ZB-oF0"/>
+                        <outletCollection property="buttons" destination="OI1-cK-BrJ" collectionClass="NSMutableArray" id="Clj-rJ-cmk"/>
+                        <outletCollection property="buttons" destination="h3H-GR-Cjk" collectionClass="NSMutableArray" id="fVT-XT-jno"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="-34"/>
+            <point key="canvasLocation" x="-244" y="-3"/>
+        </scene>
+        <!--Card Rules View Controller-->
+        <scene sceneID="6Ka-oK-TrT">
+            <objects>
+                <viewController id="znb-lo-YXh" customClass="CardRulesViewController" customModule="CardWorkOutGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3PG-V1-VYz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rules" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTX-LH-YkF">
+                                <rect key="frame" x="30" y="119" width="333" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The value of each card represent the number of exercise you do.  Jack = 11, Queen = 12, King = 13, Ace = 14" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2K2-UW-jML">
+                                <rect key="frame" x="30" y="197.99999999999997" width="333" height="119.66666666666666"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♠️ = Sit ups  ❤️ = Push ups  ♣️ = Burpees  ♦️ = Jumping Jacks" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIw-dc-AFd">
+                                <rect key="frame" x="111.66666666666669" y="397.66666666666669" width="170" height="150.66666666666669"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="L5R-wZ-iiy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TIw-dc-AFd" firstAttribute="top" secondItem="2K2-UW-jML" secondAttribute="bottom" constant="80" id="6c9-or-KzF"/>
+                            <constraint firstItem="TIw-dc-AFd" firstAttribute="centerX" secondItem="3PG-V1-VYz" secondAttribute="centerX" id="7Rk-kc-82q"/>
+                            <constraint firstItem="kTX-LH-YkF" firstAttribute="leading" secondItem="L5R-wZ-iiy" secondAttribute="leading" constant="30" id="PpA-vt-smG"/>
+                            <constraint firstItem="2K2-UW-jML" firstAttribute="top" secondItem="kTX-LH-YkF" secondAttribute="bottom" constant="37" id="fJH-kU-42w"/>
+                            <constraint firstAttribute="trailing" secondItem="2K2-UW-jML" secondAttribute="trailing" constant="30" id="jkY-io-pJ7"/>
+                            <constraint firstItem="2K2-UW-jML" firstAttribute="leading" secondItem="L5R-wZ-iiy" secondAttribute="leading" constant="30" id="rYB-dc-EqV"/>
+                            <constraint firstItem="kTX-LH-YkF" firstAttribute="top" secondItem="L5R-wZ-iiy" secondAttribute="top" constant="60" id="s6F-hp-X79"/>
+                            <constraint firstItem="L5R-wZ-iiy" firstAttribute="trailing" secondItem="kTX-LH-YkF" secondAttribute="trailing" constant="30" id="yM8-ct-GDP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QGf-R0-Xlw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="616" y="-9"/>
         </scene>
     </scenes>
     <resources>
