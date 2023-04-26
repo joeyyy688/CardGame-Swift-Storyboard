@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		043D13D329F8503000B312A7 /* CardRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D13D229F8503000B312A7 /* CardRulesViewController.swift */; };
+		0490665929F9888800D4B8AE /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490665829F9888800D4B8AE /* AppImages.swift */; };
+		0490665B29F9945700D4B8AE /* IdentifierConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0490665A29F9945700D4B8AE /* IdentifierConstants.swift */; };
 		04A9A35829F6097100690458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A35729F6097100690458 /* AppDelegate.swift */; };
 		04A9A35A29F6097100690458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A35929F6097100690458 /* SceneDelegate.swift */; };
 		04A9A35C29F6097100690458 /* CardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9A35B29F6097100690458 /* CardSelectionViewController.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		043D13D229F8503000B312A7 /* CardRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRulesViewController.swift; sourceTree = "<group>"; };
+		0490665829F9888800D4B8AE /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		0490665A29F9945700D4B8AE /* IdentifierConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierConstants.swift; sourceTree = "<group>"; };
 		04A9A35429F6097100690458 /* CardWorkOutGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkOutGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9A35729F6097100690458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A9A35929F6097100690458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0490665329F987D900D4B8AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0490665529F987F600D4B8AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04A9A35D29F6097100690458 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0490665629F9880300D4B8AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				043D13D229F8503000B312A7 /* CardRulesViewController.swift */,
+				04A9A35B29F6097100690458 /* CardSelectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0490665729F9883D00D4B8AE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0490665829F9888800D4B8AE /* AppImages.swift */,
+				0490665A29F9945700D4B8AE /* IdentifierConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		04A9A34B29F6097100690458 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +95,12 @@
 		04A9A35629F6097100690458 /* CardWorkOutGame */ = {
 			isa = PBXGroup;
 			children = (
+				0490665729F9883D00D4B8AE /* Constants */,
+				0490665629F9880300D4B8AE /* Controllers */,
+				0490665529F987F600D4B8AE /* Views */,
+				0490665329F987D900D4B8AE /* Models */,
 				04A9A35729F6097100690458 /* AppDelegate.swift */,
 				04A9A35929F6097100690458 /* SceneDelegate.swift */,
-				04A9A35B29F6097100690458 /* CardSelectionViewController.swift */,
-				043D13D229F8503000B312A7 /* CardRulesViewController.swift */,
-				04A9A35D29F6097100690458 /* Main.storyboard */,
 				04A9A36029F6097300690458 /* Assets.xcassets */,
 				04A9A36229F6097300690458 /* LaunchScreen.storyboard */,
 				04A9A36529F6097300690458 /* Info.plist */,
@@ -144,7 +182,9 @@
 				043D13D329F8503000B312A7 /* CardRulesViewController.swift in Sources */,
 				04A9A35C29F6097100690458 /* CardSelectionViewController.swift in Sources */,
 				04A9A35829F6097100690458 /* AppDelegate.swift in Sources */,
+				0490665929F9888800D4B8AE /* AppImages.swift in Sources */,
 				04A9A35A29F6097100690458 /* SceneDelegate.swift in Sources */,
+				0490665B29F9945700D4B8AE /* IdentifierConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
