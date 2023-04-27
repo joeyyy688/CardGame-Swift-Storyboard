@@ -25,12 +25,6 @@ class CardSelectionViewController: UIViewController {
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        timer.invalidate()
-    }
-    
     
     func startTimer(){
         timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(randomlyShuffleImages), userInfo: nil, repeats: true)

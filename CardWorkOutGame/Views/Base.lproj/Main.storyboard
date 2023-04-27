@@ -50,7 +50,7 @@
                                     <constraint firstAttribute="height" constant="50" id="vWF-yr-OX6"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" image="restart.circle" catalog="system" title="Restart" imagePadding="2" cornerStyle="large">
+                                <buttonConfiguration key="configuration" style="tinted" image="restart.circle" catalog="system" title="Restart" imagePadding="1" cornerStyle="large">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
                                     <color key="baseForegroundColor" systemColor="systemGreenColor"/>
                                     <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
